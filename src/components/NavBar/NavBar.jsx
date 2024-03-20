@@ -9,7 +9,7 @@ const NavBar =() => {
         <nav>
             <GuitarImage/>
             <ElementList/>
-            <CartImage/>
+            <CartImage purchasesNumber={5}/>
         </nav>
     )
 }
