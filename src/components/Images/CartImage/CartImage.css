@@ -1,0 +1,18 @@
+.cartDiv {
+  display: flex;
+  align-items: center;
+}
+
+.numberIcon {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  width: 20px;
+  border-radius: 100px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

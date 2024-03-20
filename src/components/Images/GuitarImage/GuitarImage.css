@@ -1,0 +1,10 @@
+.logoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoTitle {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
