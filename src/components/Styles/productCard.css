@@ -1,0 +1,12 @@
+
+.productCard{
+width: 700px;
+height: 400px;
+display: flex;
+justify-content: space-between;
+}
+
+.productImage{
+    width: 150px;
+    height: 250px;
+}

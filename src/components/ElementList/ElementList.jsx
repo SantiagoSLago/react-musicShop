@@ -1,16 +1,14 @@
+import "./ElementList.css";
+import { Link } from "react-router-dom";
 
-import "./ElementList.css"
+const ElementList = () => {
+  return (
+    <ul>
+      <Link to={"/category/guitar"}>Guitars</Link>
+      <Link to={"/category/bass"}>Bass</Link>
+      <Link to={"/category/drums"}>Drums</Link>
+    </ul>
+  );
+};
 
-const ElementList =() =>{
-
-
-    return(
-        <ul>
-            <li>String</li>
-            <li>Wind</li>
-            <li>Percussion</li>
-        </ul>
-    )
-}
-
-export default ElementList
+export default ElementList;
