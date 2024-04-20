@@ -8,6 +8,8 @@ const ProductsList = () => {
 
   const { idCategory } = useParams();
 
+  
+
   useEffect(() => {
     getAllProducts
       .then((resp) => {
@@ -27,8 +29,8 @@ const ProductsList = () => {
 
   return (
     <div>
-      <h1>Listado de Productos</h1>
-      <ShowAllProducts products={products} />
+      <h2 style={{textAlign:"center"}}>Listado de Productos</h2>
+      <ShowAllProducts products={products}/>
     </div>
   );
 };

@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ product }) => {
 
   return (
-    <div style={{ border: "2px solid black" }} className="productCard">
+    <div className="productCard">
       <div>
         <img src={product.image} alt={product.name} className="productImage" />
       </div>
-      <div>
+      <div className="productInfo">
         <p>Id: {product.id}</p>
         <p>Nombre: {product.name}</p>
         <p>Categoria: {product.category}</p>

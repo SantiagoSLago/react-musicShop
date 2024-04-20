@@ -41,7 +41,7 @@ export const products = [
         name: "Vintera II 70s Competition",
         type: "Mustang Bss",
         description: "Revive the timeless sound of the '70s with the Vintera® II '70s Competition Mustang® Bass and experience the iconic looks, inspiring feel and incomparable tone that only a Fender can deliver.",
-        image: "https://www.fender.com/cdn-cgi/image/format=png,resize=height=auto,width=712/https://www.fmicassets.com/Damroot/ZoomJpg/10016/0149260320_fen_ins_frt_1_rr.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQDUuUFD9HbtAJA-XwKQmaZx6M0Gp4g3wGVPAJKWy-MB5nknPyUsh4152xRmDwBFwXqFzuitPhOOk8v82f9txi-koVtMPJyVoyTOQthus3MbqGEDxabELMPiw&usqp=CAc",
         price: 1.949
     },
     {
@@ -50,7 +50,7 @@ export const products = [
         name: "Limited Edition Souona",
         type: "Jazz bass",
         description: "Designed to inspire and captivate, The Suona Jazz Bass® Thinline sings with a refined elegance that echoes the masterful work of a legendary artisan. A stunning adaptation of traditional Fender design, its warm, resonant tones and unmatched beauty are a testament to the dedication and artistry poured into every detail.",
-        image: "https://www.fender.com/cdn-cgi/image/format=png,resize=height=auto,width=712/https://www.fmicassets.com/Damroot/ZoomJpg/10012/0170291830_fen_ins_frt_1_rr.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTvwosF04w-pHdEesvThawG0sdni-HR7cHHvrLsldMXZvOP-U0JmntA8w9V8VwRrtRMX0ftjICebmKXLc6_Fj-_mxIcg0S6Aa38QWyAcvXEXbVol4a6GGI&usqp=CAc",
         price: 4.999
     },
     {
@@ -59,7 +59,7 @@ export const products = [
         name: "American Vintage II 1966",
         type: "Jazz bass",
         description: "The Fender® American Vintage II series presents a remarkably accurate take on the revolutionary designs that altered the course of musical history. Built with period-accurate bodies, necks and hardware, premium finishes and meticulously voiced, year-specific pickups, each instrument captures the essence of authentic Fender craftsmanship and tone.",
-        image: "https://www.fender.com/cdn-cgi/image/format=png,resize=height=auto,width=712/https://www.fmicassets.com/Damroot/ZoomJpg/10013/0190170800_fen_ins_frt_1_rr.jpg",
+        image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSwwy_1eZJHFBf67hD_qHYVBkLd6f6e3VBiT2PObHpoIsS4VkBBScAifhuNPhyjiNS1txLGTLedYAjNWg5xag_-Cfdy-TgMU4SmjiJ3Rms2X3sz3ggSxkUx2UXGOd02fBrOWigNfSg&usqp=CAc",
         price: 4.299
     },
     {

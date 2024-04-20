@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard";
 
 const ShowAllProducts = ({ products }) => {
   return (
-    <div>
+    <div className="itemsList">
       {products.map((product) => {
         return (
           <div key={product.id}>

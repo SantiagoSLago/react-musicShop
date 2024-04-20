@@ -12,7 +12,7 @@ const ProductDetailContainer = () => {
   useEffect(() => {
     getAllProducts
       .then((resp) => {
-        const newProduct = resp.find((product) => product.id == idProduct);
+        const newProduct = resp.find((product) => product.id === Number(idProduct));
         console.log(newProduct)
         SetProduct(newProduct);
       })
@@ -22,7 +22,7 @@ const ProductDetailContainer = () => {
   }, []);
 
   return (
-    <div>
+    <div className="productCardHolder">
       <ProductCard product={product} />
     </div>
   );
