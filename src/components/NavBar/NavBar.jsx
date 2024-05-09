@@ -1,7 +1,8 @@
 import "./NavBar.css"
 import ElementList from "../ElementList/ElementList"
 import GuitarImage from "../Images/GuitarImage/GuitarImage"
-import CartImage from "../Images/CartImage/CartImage"
+import CartWidget from "../Images/CartWidget/CartWidget"
+
 
 const NavBar =() => {
 
@@ -9,7 +10,7 @@ const NavBar =() => {
         <nav>
             <GuitarImage/>
             <ElementList/>
-            <CartImage purchasesNumber={5}/>
+            <CartWidget/>
         </nav>
     )
 }

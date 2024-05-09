@@ -1,0 +1,57 @@
+.cart {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cartProductListHolder {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.cartProductListHolder h2 {
+  color: black;
+  align-self: center;
+}
+
+.cartProductCard {
+  margin-top: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 380px;
+}
+
+.cartProductCard button {
+  width: 100px;
+  height: 50px;
+}
+.cartProductImage {
+  width: 100px;
+  height: 150px;
+}
+
+.cartDataCheckoutHolder {
+  border: 1px solid black;
+  margin-top: 25px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: safe;
+  justify-content: space-evenly;
+}
+
+.totalAmount {
+  color: black;
+}
+
+.emptyCartBannerHolder h2{
+  color: black;
+  text-align: center;
+  margin-top:  90px;
+}

@@ -1,0 +1,19 @@
+.counterHolder{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 140px;    
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.btn-plus-minus{
+    height: 20px;
+    width: 25px;
+    text-align: center;
+    margin-right: 3px;
+}
+

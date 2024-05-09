@@ -7,4 +7,9 @@
 .logoTitle {
   margin-top: 5px;
   margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.logoTitle:visited{
+  color: black;
 }

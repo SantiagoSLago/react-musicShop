@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const GuitarImage = () => {
   return (
     <Link to={"/"} className="logoDiv">
-      <img src="/img/icono-guitarra.png" alt="" height={60} width={60}/>
+      <img src="/img/logoMusic.png" alt="" height={60} width={60}/>
       <LogoTitle/>
     </Link>
   );

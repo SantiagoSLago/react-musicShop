@@ -1,9 +1,17 @@
-ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    list-style: none;
-    padding: 0%;
-    width: 35%;
+  list-style: none;
+  padding: 0%;
+  width: 35%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  color: black;
 }

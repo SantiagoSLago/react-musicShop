@@ -1,0 +1,49 @@
+.checkoutFormHolder{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.checkoutForm{
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 300px;
+text-align: center;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.inputHolder{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.orderSuccessHolder{
+    border:1px solid black;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.orderSuccessHolder h2{
+    color: black
+}
+
+.orderData{
+    border: 1px solid red;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+

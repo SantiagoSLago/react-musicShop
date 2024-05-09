@@ -1,13 +1,22 @@
 .cartDiv {
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+.shopping-cart{
+  color: rgba(248, 236, 190, 1);
+  
+  font-size: xx-large;
+}
+.shopping-cart:visited {
+  color: rgba(248, 236, 190, 1);
 }
 
 .numberIcon {
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
-  border: 1px solid green;
-  background-color: green;
+  
+  background-color:rgba(84, 40, 0, 1);
   color: white;
   width: 20px;
   border-radius: 100px;

@@ -1,9 +1,9 @@
-
-
+import "./LogoTitle.css"
+import {Link} from "react-router-dom"
 const LogoTitle = () => {
 
 return (
-    <h6 className="logoTitle">Music Shop Online</h6>
+    <Link className="logoTitle" to={"/"}>Bonfire Music</Link>
 )
 
 };

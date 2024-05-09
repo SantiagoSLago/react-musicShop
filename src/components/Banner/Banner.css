@@ -1,0 +1,10 @@
+.bannerContainer {
+  height: 75vh;
+  background-image: url('../public/img/guitarra-banner.jpg');
+
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
