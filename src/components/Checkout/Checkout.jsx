@@ -45,7 +45,6 @@ export const Checkout = () => {
     const response = await addDoc(ordersRef, order);
     setIdOrder(response.id);
     //Borrar Carrito
-    debugger
     const checkout = true;
     clearCart(checkout);
   };

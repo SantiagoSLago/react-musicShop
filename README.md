@@ -53,4 +53,4 @@ Este proyecto es un e-commerce desarrollado utilizando Vite, Node.js, HTML, CSS,
 ## Links
 
 
-<img width="30" src="https://github.com/tandpfun/skill-icons/raw/main/icons/Github-Dark.svg"><p>https://github.com/SantiagoSLago</p>
+<img width="30" src="https://github.com/tandpfun/skill-icons/raw/main/icons/Github-Dark.svg"> https://github.com/SantiagoSLago

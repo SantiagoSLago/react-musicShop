@@ -1,57 +1,42 @@
-
-
-.itemListHolder{
+.itemListHolder {
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
 }
 
-h2{
-  color:white;
+h2 {
+  color: white;
   margin-top: 30px;
   font-size: xx-large;
 }
-.itemsList{
+.itemsList {
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 95%;
-  
 }
 
-
-.productCardHolder{
+.productCardHolder {
   margin-top: 10px;
   background-color: white;
   width: 220px;
 }
 
-.productInfo{
-  text-align: left;
+.productInfo {
+  text-align: center;
   text-decoration: none;
   color: black;
 }
 
-
-
+.productInfo button {
+  margin-top: 10px;
+}
 
 .productImage {
   width: 150px;
   height: 300px;
-
-  
- 
 }
-
-
-
-
-
-
-
-
