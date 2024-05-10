@@ -20,7 +20,7 @@ const ProductDetailContainer = () => {
     addToCart(productCart);
   };
 
-  //--- Firebase---
+  // --> Firebase <--
 
   const getProduct = async () => {
     const docRef = doc(db, "products", idProduct);
@@ -37,21 +37,6 @@ const ProductDetailContainer = () => {
     getProduct();
   }, [idProduct]);
 
-  //--- hasta aca firebase ---
-
-  // useEffect(() => {
-  //   getAllProducts
-  //     .then((resp) => {
-  //       const newProduct = resp.find(
-  //         (product) => product.id === Number(idProduct)
-  //       );
-
-  //       SetProduct(newProduct);
-  //     })
-  //     .catch((error) => {
-  //       console.log(error);
-  //     });
-  // }, []);
 
   return (
     <div className="productDetailHolder">

@@ -1,10 +1,13 @@
 import ProductCard from "./ProductCard";
 import "../Styles/productCard.css"
 
-const ShowAllProducts = ({ products }) => {
+const ShowAllProducts = ({ products,productsName }) => {
+  console.log(productsName)
   return (
     <div className="itemListHolder">
-      <h2>All our products</h2>
+ 
+
+      <h2>{productsName !== null ? `${productsName} catalog` : "All our products"}</h2>
       <div className="itemsList">
         {products.map((product) => {
           return (

@@ -4,7 +4,7 @@ import { object, string, number } from "yup";
 
 
 
-//Object es lo que se valida
+
 let userSchema = object({
     name: string().required(),
     phone: number().required().positive().integer(),

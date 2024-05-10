@@ -21,7 +21,7 @@ export const Checkout = () => {
   };
 
   const handleSubmit = async (event) => {
-    //Dandole formato a la orden
+    //--> Dandole formato a la orden <--
     event.preventDefault();
     const order = {
       user: {
@@ -31,7 +31,7 @@ export const Checkout = () => {
       total: totalCartPrice(),
     };
 
-    // Subir la orden a Firebase
+    //--> Upload orden a Firebase <--
     //--> Validacion de los campos del formulario <--
     const response = await validateForm(dataForm);
     if (response.status === "Success") {
@@ -44,12 +44,12 @@ export const Checkout = () => {
     const ordersRef = collection(db, "orders");
     const response = await addDoc(ordersRef, order);
     setIdOrder(response.id);
-    //Borrar Carrito
+    //--> Borrar Carrito <--
     const checkout = true;
     clearCart(checkout);
   };
 
-  //EarlyReturn
+  //--> EarlyReturn <--
   if (idOrder) {
     return (
       <div className="orderSuccessHolder">

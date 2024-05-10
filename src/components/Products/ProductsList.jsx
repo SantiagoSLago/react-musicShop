@@ -7,10 +7,12 @@ import { collection, getDocs, query, where } from "firebase/firestore";
 import Banner from "../Banner/Banner";
 const ProductsList = () => {
   const [products, setProducts] = useState([]);
+  const [productsName,setProductsName] = useState(null)
 
   const { idCategory } = useParams();
+  
 
-  // Desde aca firestore
+  // --> Consulta Firebase <--
   const getProducts = async () => {
     try {
       const dataDb = await getDocs(collection(db, "products"));
@@ -21,12 +23,13 @@ const ProductsList = () => {
         };
       });
       setProducts(data);
+      setProductsName(null)
     } catch (error) {
       console.log(error);
     }
   };
 
-  // --> Buscar productos por category
+  // --> Buscar productos por category <--
   const getProductsByCategory = async () => {
     const q = query(
       collection(db, "products"),
@@ -40,6 +43,9 @@ const ProductsList = () => {
       };
     });
     setProducts(data);
+    setProductsName(data[0].category)
+    console.log(productsName)
+    
   };
 
   useEffect(() => {
@@ -49,29 +55,12 @@ const ProductsList = () => {
       getProducts();
     }
   }, [idCategory]);
-  //----------------------Hasta aca firebase--------------
-
-  // useEffect(() => {
-  //   getAllProducts
-  //     .then((resp) => {
-  //       if (idCategory) {
-  //         const newProducts = resp.filter(
-  //           (producto) => producto.category === idCategory
-  //         );
-  //         setProducts(newProducts);
-  //       }else{
-  //         setProducts(resp)
-  //       }
-  //     })
-  //     .catch((data) => {
-  //       console.log(data);
-  //     });
-  // }, [idCategory]);
+  
 
   return (
     <div>
       <Banner/>
-      <ShowAllProducts products={products} />
+      <ShowAllProducts products={products} productsName ={productsName} />
     </div>
   );
 };

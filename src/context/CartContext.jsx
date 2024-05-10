@@ -26,7 +26,7 @@ const CartProvider = ({ children }) => {
     }
   };
 
-  // Calculo de cantidad total de productos en el carrito
+  // --> Total productos en el carrito <--
   const totalQuantity = () => {
     const quantity = cart.reduce(
       (total, product) => total + product.quantity,
@@ -35,7 +35,7 @@ const CartProvider = ({ children }) => {
     return quantity;
   };
 
-  // Calcular el precio total de toda la compra
+  // --> Precio total de la compra <--
   const totalCartPrice = () => {
     const totalPrice = cart.reduce(
       (total, product) => total + product.quantity * product.price,
@@ -44,7 +44,7 @@ const CartProvider = ({ children }) => {
 
     return totalPrice;
   };
-  // Vaciar Carrito
+  // --> Vaciar Carrito <--
   const clearCart = (checkout) => {
     if (checkout === true) {
       setCart([]);
@@ -70,13 +70,13 @@ const CartProvider = ({ children }) => {
     }
   };
 
-  // Detectar si un producto se encuentra o no en el carrito
+  // --> Producto se encuentra o no en el carrito <--
   const isInCart = (productId) => {
     const condition = cart.some((product) => product.id === productId);
     return condition;
   };
 
-  // Eliminar un producto del carrito por ID
+  // --> Eliminar producto del carrito por ID <--
   const deleteProductById = (productId) => {
     const productsFilter = cart.filter((product) => product.id !== productId);
     setCart(productsFilter);
